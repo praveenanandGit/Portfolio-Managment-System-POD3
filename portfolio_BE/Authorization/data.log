@@ -1,0 +1,284 @@
+"2022-07-31 22:04:26 [restartedMain] INFO  c.c.a.AuthorizationApplication - Starting AuthorizationApplication using Java 1.8.0_341 on DESKTOP-GGLVG3U with PID 7824 (C:\Users\Suraj Enterpries\Desktop\Portfolio project\portfolio_BE\Authorization\target\classes started by Suraj Enterpries in C:\Users\Suraj Enterpries\Desktop\Portfolio project\portfolio_BE\Authorization)
+""2022-07-31 22:04:26 [restartedMain] INFO  c.c.a.AuthorizationApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-31 22:04:26 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-07-31 22:04:26 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-07-31 22:04:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-31 22:04:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123 ms. Found 1 JPA repository interfaces.
+""2022-07-31 22:04:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+""2022-07-31 22:04:31 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-31 22:04:31 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-31 22:04:31 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-31 22:04:31 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4332 ms
+""2022-07-31 22:04:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-31 22:04:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-31 22:04:32 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-31 22:04:32 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-31 22:04:33 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-31 22:04:34 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-31 22:04:35 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-31 22:04:36 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-31 22:04:36 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-31 22:04:37 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-31 22:04:39 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-07-31 22:04:39 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-07-31 22:04:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+""2022-07-31 22:04:40 [restartedMain] INFO  c.c.a.AuthorizationApplication - Started AuthorizationApplication in 14.485 seconds (JVM running for 17.79)
+""2022-07-31 22:07:56 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-07-31 22:07:56 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-07-31 22:07:56 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 143 ms
+""2022-07-31 22:07:57 [http-nio-8081-exec-1] INFO  c.c.a.controller.AuthController - Authentication started....
+""2022-07-31 22:07:59 [http-nio-8081-exec-1] INFO  c.c.a.controller.AuthController - Authentication successfully..
+""2022-07-31 22:08:00 [http-nio-8081-exec-1] INFO  c.c.a.controller.AuthController - Received request to generate token for sayan
+""2022-07-31 22:08:12 [http-nio-8081-exec-4] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:08:12 [http-nio-8081-exec-5] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:08:12 [http-nio-8081-exec-4] INFO  c.c.a.controller.AuthController - Getting userId by token...
+""2022-07-31 22:08:12 [http-nio-8081-exec-5] INFO  c.c.a.controller.AuthController - Getting userId by token...
+""2022-07-31 22:08:53 [http-nio-8081-exec-6] INFO  c.c.a.controller.AuthController - Authentication started....
+""2022-07-31 22:08:53 [http-nio-8081-exec-6] INFO  c.c.a.controller.AuthController - Authentication successfully..
+""2022-07-31 22:08:53 [http-nio-8081-exec-6] INFO  c.c.a.controller.AuthController - Received request to generate token for amruta
+""2022-07-31 22:09:07 [http-nio-8081-exec-8] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:09:07 [http-nio-8081-exec-8] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:09:08 [http-nio-8081-exec-9] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:09:08 [http-nio-8081-exec-9] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:09:27 [http-nio-8081-exec-1] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:09:27 [http-nio-8081-exec-3] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:09:27 [http-nio-8081-exec-1] INFO  c.c.a.controller.AuthController - Getting userId by token...
+""2022-07-31 22:09:27 [http-nio-8081-exec-3] INFO  c.c.a.controller.AuthController - Getting userId by token...
+""2022-07-31 22:09:27 [http-nio-8081-exec-4] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:09:27 [http-nio-8081-exec-4] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:09:27 [http-nio-8081-exec-5] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:09:27 [http-nio-8081-exec-5] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:09:27 [http-nio-8081-exec-6] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:09:27 [http-nio-8081-exec-6] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:09:27 [http-nio-8081-exec-7] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:09:27 [http-nio-8081-exec-8] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:09:27 [http-nio-8081-exec-7] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:09:27 [http-nio-8081-exec-8] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:09:27 [http-nio-8081-exec-9] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:09:27 [http-nio-8081-exec-9] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:09:27 [http-nio-8081-exec-10] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:09:27 [http-nio-8081-exec-10] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:09:28 [http-nio-8081-exec-2] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:09:28 [http-nio-8081-exec-2] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:10:11 [http-nio-8081-exec-1] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:11 [http-nio-8081-exec-1] INFO  c.c.a.controller.AuthController - Getting userId by token...
+""2022-07-31 22:10:11 [http-nio-8081-exec-3] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:11 [http-nio-8081-exec-3] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:10:11 [http-nio-8081-exec-4] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:11 [http-nio-8081-exec-5] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:11 [http-nio-8081-exec-4] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:10:11 [http-nio-8081-exec-5] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:10:11 [http-nio-8081-exec-6] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:11 [http-nio-8081-exec-6] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:10:54 [http-nio-8081-exec-9] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:54 [http-nio-8081-exec-9] INFO  c.c.a.controller.AuthController - Getting userId by token...
+""2022-07-31 22:10:54 [http-nio-8081-exec-10] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:54 [http-nio-8081-exec-10] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:10:54 [http-nio-8081-exec-2] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:54 [http-nio-8081-exec-2] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:10:55 [http-nio-8081-exec-1] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:55 [http-nio-8081-exec-1] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:10:55 [http-nio-8081-exec-3] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:55 [http-nio-8081-exec-3] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:10:55 [http-nio-8081-exec-5] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:55 [http-nio-8081-exec-5] INFO  c.c.a.controller.AuthController - Getting userId by token...
+""2022-07-31 22:10:55 [http-nio-8081-exec-4] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:55 [http-nio-8081-exec-6] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:55 [http-nio-8081-exec-4] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:10:55 [http-nio-8081-exec-6] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:10:55 [http-nio-8081-exec-7] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:55 [http-nio-8081-exec-8] INFO  c.c.a.util.JwtRequestFilter - SecurityContextHolder was null!!!
+""2022-07-31 22:10:55 [http-nio-8081-exec-7] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:10:55 [http-nio-8081-exec-8] INFO  c.c.a.controller.AuthController - Getting username by token...
+""2022-07-31 22:22:51 [Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-31 22:22:52 [Thread-6] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-31 22:22:52 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-31 22:22:52 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-31 22:22:53 [restartedMain] INFO  c.c.a.AuthorizationApplication - Starting AuthorizationApplication using Java 1.8.0_341 on DESKTOP-GGLVG3U with PID 7824 (C:\Users\Suraj Enterpries\Desktop\Portfolio project\portfolio_BE\Authorization\target\classes started by Suraj Enterpries in C:\Users\Suraj Enterpries\Desktop\Portfolio project\portfolio_BE\Authorization)
+""2022-07-31 22:22:53 [restartedMain] INFO  c.c.a.AuthorizationApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-31 22:22:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-31 22:22:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+""2022-07-31 22:22:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+""2022-07-31 22:22:55 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-31 22:22:55 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-31 22:22:55 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-31 22:22:55 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2092 ms
+""2022-07-31 22:22:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-07-31 22:22:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-07-31 22:22:55 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-31 22:22:55 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-31 22:22:55 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-31 22:22:55 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-31 22:22:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-31 22:22:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-31 22:22:56 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-07-31 22:22:56 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-07-31 22:22:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+""2022-07-31 22:22:56 [restartedMain] INFO  c.c.a.AuthorizationApplication - Started AuthorizationApplication in 3.595 seconds (JVM running for 1114.106)
+""2022-07-31 22:22:56 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-07-31 22:33:41 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-07-31 22:33:41 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-31 22:33:42 [RMI TCP Connection(2)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-31 22:33:42 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+""2022-07-31 22:33:42 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+""2022-07-31 22:34:45 [restartedMain] INFO  c.c.a.AuthorizationApplication - Starting AuthorizationApplication using Java 1.8.0_341 on DESKTOP-GGLVG3U with PID 18328 (C:\Users\Suraj Enterpries\Desktop\Portfolio project\portfolio_BE\Authorization\target\classes started by Suraj Enterpries in C:\Users\Suraj Enterpries\Desktop\Portfolio project\portfolio_BE\Authorization)
+""2022-07-31 22:34:45 [restartedMain] INFO  c.c.a.AuthorizationApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-31 22:34:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-07-31 22:34:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-07-31 22:34:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-31 22:34:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123 ms. Found 1 JPA repository interfaces.
+""2022-07-31 22:34:50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+""2022-07-31 22:34:50 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-31 22:34:50 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-31 22:34:50 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-31 22:34:50 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4717 ms
+""2022-07-31 22:34:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-31 22:34:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-31 22:34:51 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-31 22:34:52 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-31 22:34:52 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-31 22:34:52 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-31 22:34:53 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-31 22:34:54 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-31 22:34:54 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-31 22:34:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-31 22:34:57 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-07-31 22:34:57 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-07-31 22:34:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+""2022-07-31 22:34:58 [restartedMain] INFO  c.c.a.AuthorizationApplication - Started AuthorizationApplication in 13.752 seconds (JVM running for 15.819)
+""2022-07-31 22:37:15 [restartedMain] INFO  c.c.a.AuthorizationApplication - Starting AuthorizationApplication using Java 1.8.0_341 on DESKTOP-GGLVG3U with PID 9872 (C:\Users\Suraj Enterpries\Desktop\Portfolio project\portfolio_BE\Authorization\target\classes started by Suraj Enterpries in C:\Users\Suraj Enterpries\Desktop\Portfolio project\portfolio_BE\Authorization)
+""2022-07-31 22:37:15 [restartedMain] INFO  c.c.a.AuthorizationApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-31 22:37:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-07-31 22:37:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-07-31 22:37:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-31 22:37:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125 ms. Found 1 JPA repository interfaces.
+""2022-07-31 22:37:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+""2022-07-31 22:37:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-31 22:37:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-31 22:37:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-31 22:37:19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4379 ms
+""2022-07-31 22:37:20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-31 22:37:20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-31 22:37:20 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-31 22:37:21 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-31 22:37:21 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-31 22:37:22 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-31 22:37:22 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-31 22:37:24 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-31 22:37:24 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-31 22:37:25 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-31 22:37:26 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-07-31 22:37:26 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-07-31 22:37:27 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+""2022-07-31 22:37:27 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-31 22:37:27 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-31 22:37:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-31 22:37:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-31 22:37:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2022-07-31 22:37:27 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2022-07-31 22:37:27 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+""2022-07-31 22:37:40 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-07-31 22:37:40 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-31 22:37:40 [RMI TCP Connection(2)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-31 22:37:40 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-31 22:37:40 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-31 22:38:14 [restartedMain] INFO  c.c.a.AuthorizationApplication - Starting AuthorizationApplication using Java 1.8.0_341 on DESKTOP-GGLVG3U with PID 13488 (C:\Users\Suraj Enterpries\Desktop\Portfolio project\portfolio_BE\Authorization\target\classes started by Suraj Enterpries in C:\Users\Suraj Enterpries\Desktop\Portfolio project\portfolio_BE\Authorization)
+""2022-07-31 22:38:14 [restartedMain] INFO  c.c.a.AuthorizationApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-31 22:38:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-07-31 22:38:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-07-31 22:38:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-31 22:38:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interfaces.
+""2022-07-31 22:38:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+""2022-07-31 22:38:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-31 22:38:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-31 22:38:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-31 22:38:19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4255 ms
+""2022-07-31 22:38:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-31 22:38:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-31 22:38:20 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-31 22:38:20 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-31 22:38:20 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-31 22:38:21 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-31 22:38:21 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-31 22:38:22 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-31 22:38:22 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-31 22:38:23 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-31 22:38:25 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-07-31 22:38:25 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-07-31 22:38:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+""2022-07-31 22:38:26 [restartedMain] INFO  c.c.a.AuthorizationApplication - Started AuthorizationApplication in 12.603 seconds (JVM running for 14.381)
+""2022-07-31 22:38:58 [main] INFO  c.c.a.AuthorizationApplicationTests - Starting AuthorizationApplicationTests using Java 1.8.0_341 on DESKTOP-GGLVG3U with PID 19572 (started by Suraj Enterpries in C:\Users\Suraj Enterpries\Desktop\Portfolio project\portfolio_BE\Authorization)
+""2022-07-31 22:38:58 [main] INFO  c.c.a.AuthorizationApplicationTests - No active profile set, falling back to 1 default profile: "default"
+""2022-07-31 22:39:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-31 22:39:03 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 288 ms. Found 1 JPA repository interfaces.
+""2022-07-31 22:39:05 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-31 22:39:06 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-31 22:39:06 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-31 22:39:07 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-31 22:39:07 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-31 22:39:08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-31 22:39:11 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-31 22:39:11 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-31 22:39:11 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-31 22:39:15 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-31 22:39:17 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-07-31 22:39:21 [main] INFO  c.c.a.AuthorizationApplicationTests - Started AuthorizationApplicationTests in 24.489 seconds (JVM running for 27.987)
+""2022-07-31 22:39:22 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.authorization.service.MyUserDetailsServiceTest], using SpringBootContextLoader
+""2022-07-31 22:39:22 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.authorization.service.MyUserDetailsServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-07-31 22:39:22 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.authorization.service.MyUserDetailsServiceTest]: MyUserDetailsServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-07-31 22:39:22 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.authorization.AuthorizationApplication for test class com.cts.authorization.service.MyUserDetailsServiceTest
+""2022-07-31 22:39:22 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+""2022-07-31 22:39:22 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@becb93a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@f60c14e, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1d1fd2aa, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4c78e00c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@22b3b5d0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2b506a79, org.springframework.test.context.transaction.TransactionalTestExecutionListener@48b9773b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@43ca96a0, org.springframework.test.context.event.EventPublishingTestExecutionListener@7c68a63c, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@5443086a, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@5740ad76, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@40a84ea8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@79c849c7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@35840ecc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@67fd2e17, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@65a2e14e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5e9f1a4c]
+""2022-07-31 22:39:22 [main] INFO  c.c.a.s.MyUserDetailsServiceTest - Starting MyUserDetailsServiceTest using Java 1.8.0_341 on DESKTOP-GGLVG3U with PID 19572 (started by Suraj Enterpries in C:\Users\Suraj Enterpries\Desktop\Portfolio project\portfolio_BE\Authorization)
+""2022-07-31 22:39:22 [main] INFO  c.c.a.s.MyUserDetailsServiceTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-31 22:39:24 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-31 22:39:25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 179 ms. Found 1 JPA repository interfaces.
+""2022-07-31 22:39:26 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-07-31 22:39:26 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-07-31 22:39:26 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-31 22:39:26 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-31 22:39:26 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-31 22:39:26 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-31 22:39:26 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-31 22:39:28 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-31 22:39:29 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-07-31 22:39:31 [main] INFO  c.c.a.s.MyUserDetailsServiceTest - Started MyUserDetailsServiceTest in 8.646 seconds (JVM running for 37.458)
+""2022-07-31 22:39:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.authorization.service.MyUserDetailsTest], using SpringBootContextLoader
+""2022-07-31 22:39:31 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.authorization.service.MyUserDetailsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-07-31 22:39:31 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.authorization.service.MyUserDetailsTest]: MyUserDetailsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-07-31 22:39:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.authorization.AuthorizationApplication for test class com.cts.authorization.service.MyUserDetailsTest
+""2022-07-31 22:39:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+""2022-07-31 22:39:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@29ce33e9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1f86f7da, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@28b4b10e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2c0d7099, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@74844f8a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5c945ee7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@51a5a8ba, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@16eb93af, org.springframework.test.context.event.EventPublishingTestExecutionListener@404566e7, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@3ed87b6e, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@4244e477, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8f8717b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@63614cdd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e9f48d4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7b9d602c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@30a5a58d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@59cb10e0]
+""2022-07-31 22:39:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.authorization.service.UserServiceTest], using SpringBootContextLoader
+""2022-07-31 22:39:31 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.authorization.service.UserServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-07-31 22:39:31 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.authorization.service.UserServiceTest]: UserServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-07-31 22:39:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.authorization.AuthorizationApplication for test class com.cts.authorization.service.UserServiceTest
+""2022-07-31 22:39:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+""2022-07-31 22:39:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3d763ae5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2dfab167, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@30eee098, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3123ba75, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3d8e1fa6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4587f0f9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@22a22f1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2e76d0d3, org.springframework.test.context.event.EventPublishingTestExecutionListener@63c88994, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@1932ad2c, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@4adc3951, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@52b49891, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@75973f7a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7940b729, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@527d1fe1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@24fb752f, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@68dbe225]
+""2022-07-31 22:39:31 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-31 22:39:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-31 22:39:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-31 22:39:31 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-31 22:39:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+""2022-07-31 22:39:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+""2022-07-31 22:39:58 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-07-31 22:39:58 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-31 22:39:59 [RMI TCP Connection(2)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-31 22:39:59 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-31 22:39:59 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+"

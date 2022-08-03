@@ -1,0 +1,4 @@
+FROM openjdk:8u131-jdk-alpine
+EXPOSE 80
+COPY ./target/DailySharePrice-0.0.1-SNAPSHOT.jar DailySharePrice-0.0.1-SNAPSHOT.jar 
+ENTRYPOINT ["java","-jar","/DailySharePrice-0.0.1-SNAPSHOT.jar"]
